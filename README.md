@@ -114,3 +114,37 @@ verb = input("Enter a verb: ")
 print(f"Today I saw a {adjective} {noun} that loved to {verb}!")
 
 ```
+
+
+## 5. Arithmetic & Math 📐
+✅ Arithmetic Operators
+Python supports basic math operators:
+```python
+x = 10
+y = 3
+
+print(x + y)  # Addition → 13
+print(x - y)  # Subtraction → 7
+print(x * y)  # Multiplication → 30
+print(x / y)  # Division (float) → 3.333...
+print(x // y) # Floor Division → 3
+print(x % y)  # Modulus (remainder) → 1
+print(x ** y) # Exponentiation → 10³ = 1000
+
+```
+- ✅ Math Functions (from math module)
+```python
+import math
+
+print(math.sqrt(16))    # 4.0
+print(math.pow(2, 3))   # 8.0
+print(math.ceil(4.3))   # 5
+print(math.floor(4.7))  # 4
+print(abs(-10))         # 10
+
+import math
+radius = float(input("Enter radius of a circle: "))
+area = math.pi * radius ** 2
+print("Area of circle:", area)
+
+```
