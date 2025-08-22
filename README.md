@@ -36,7 +36,7 @@ a = b = c = 100
 print(a, b, c)  # 100 100 100
 ```
 
-## 2. 🎯 Topic #3: Type Casting 💱
+## 2. Type Casting 💱
 ✅ What is Type Casting?
 
 Type casting means converting one data type into another.
@@ -62,4 +62,19 @@ print("The value of pi is " + str(pi))  # The value of pi is 3.14
 # boolean to integer
 flag = True
 print(int(flag))   # 1
+```
+
+- Practice Exercises (Type Casting)
+- Ask the user for their age (input is string). Convert it to integer and print:
+```python
+# Ask the user for their age
+age_input=input("ENTER YOUT AGE")
+
+# Convert the string input to integer
+age=int(age_input)
+
+# Print the result
+print("Your age is",age)
+print(type(age_input))
+print(type(age))
 ```
