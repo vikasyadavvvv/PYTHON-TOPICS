@@ -78,3 +78,26 @@ print("Your age is",age)
 print(type(age_input))
 print(type(age))
 ```
+
+## 3. User Input ⌨️
+✅ Getting Input from the User
+
+In Python, we use input() to take input from the user.
+👉 Important: input() always returns a string, so you often need type casting.
+
+Example:
+```python
+name = input("Enter your name: ")
+print("Hello " + name)
+
+age = int(input("Enter your age: "))  # convert to integer
+print("Next year you will be", age + 1)
+price = float(input("Enter the price: "))  # convert to float
+print("Price with tax:", price * 1.18)
+
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
+print("Sum:", num1 + num2)
+
+
+```
