@@ -34,5 +34,32 @@ print(x, y, z)  # 10 20 30
 #Assigning the same value:
 a = b = c = 100
 print(a, b, c)  # 100 100 100
+```
 
+## 2. 🎯 Topic #3: Type Casting 💱
+✅ What is Type Casting?
+
+Type casting means converting one data type into another.
+Python has built-in functions for this:
+
+- int() → converts to integer
+- float() → converts to float
+- str() → converts to string
+- bool() → converts to boolean
+```python
+# integer to float
+num = 10
+print(float(num))   # 10.0
+
+# string to integer
+age = "20"
+print(int(age) + 5) # 25
+
+# float to string
+pi = 3.14
+print("The value of pi is " + str(pi))  # The value of pi is 3.14
+
+# boolean to integer
+flag = True
+print(int(flag))   # 1
 ```
