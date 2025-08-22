@@ -99,5 +99,18 @@ num1 = int(input("Enter first number: "))
 num2 = int(input("Enter second number: "))
 print("Sum:", num1 + num2)
 
+```
+
+## 4. ⭐ Madlibs Game 📖
+✅ What is Madlibs?
+Madlibs is a word game where the program asks the user for words (like nouns, verbs, adjectives), then inserts them into a story template to create something funny.
+Example:
+```python
+# Madlibs Game
+adjective = input("Enter an adjective: ")
+noun = input("Enter a noun: ")
+verb = input("Enter a verb: ")
+
+print(f"Today I saw a {adjective} {noun} that loved to {verb}!")
 
 ```
