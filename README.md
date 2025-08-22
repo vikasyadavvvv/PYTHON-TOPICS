@@ -1,6 +1,6 @@
 # PYTHON-TOPICS
 
-## 1.Variables ❎
+## 1. Variables ❎
 ✅ What is a Variable?
 
 A variable is like a container that stores data (a value).
