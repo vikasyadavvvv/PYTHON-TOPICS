@@ -364,7 +364,57 @@ popped = fruits.pop()     # remove last item
 fruits.sort()             # sort alphabetically
 fruits.reverse()          # reverse order
 
+```
 
+## 15. 🔹 Tuples
+
+A tuple is an ordered, immutable collection in Python.
+Defined using parentheses ().
+Once created, you cannot change the elements (no add/remove/update).
+
+Example:
+```python
+my_tuple = (1, 2, 3, "hello", 3.5)
+print(my_tuple[0])   # 1
+print(my_tuple[-1])  # 3.5
+
+# 👉 Tuples allow duplicate values:
+t = (1, 2, 2, 3)
+print(t)   # (1, 2, 2, 3)
+
+#👉 If there’s only one element, you must add a comma:
+t1 = (10,)
+print(type(t1))   # <class 'tuple'>
+
+```
+
+## 16. 🔹 Sets
+
+A set is an unordered, mutable collection of unique elements.
+Defined using curly braces {}.
+Duplicates are not allowed.
+
+Example:
+```python
+my_set = {1, 2, 3, 4, 4, 5}
+print(my_set)   # {1, 2, 3, 4, 5}  (4 is removed automatically)
+
+# 👉 Adding & Removing:
+s = {10, 20, 30}
+s.add(40)
+print(s)       # {40, 10, 20, 30}
+
+s.remove(20)   # removes element
+print(s)       # {40, 10, 30}
+
+# 👉 Set Operations:
+a = {1, 2, 3, 4}
+b = {3, 4, 5, 6}
+
+print(a | b)   # Union: {1, 2, 3, 4, 5, 6}
+print(a & b)   # Intersection: {3, 4}
+print(a - b)   # Difference: {1, 2}
+print(a ^ b)   # Symmetric Difference: {1, 2, 5, 6}
 
 ```
 
