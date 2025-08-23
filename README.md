@@ -181,7 +181,7 @@ We’ll build a simple calculator that:
 - Asks for the operation (+, -, *, /).
 - Uses if statements to decide which operation to perform.
 ```python
-```# Simple Calculator
+# Simple Calculator
 num1 = float(input("Enter first number: "))
 num2 = float(input("Enter second number: "))
 operation = input("Enter operation (+, -, *, /): ")
@@ -199,4 +199,40 @@ elif operation == "/":
         print("Error! Division by zero.")
 else:
     print("Invalid operation.")
+```
+
+
+## 8. Logical Operators 🌦️
+✅ Logical Operators in Python
+
+Used to combine multiple conditions in if statements.
+
+- and → True if both conditions are true
+- or → True if at least one condition is true
+- not → Reverses the condition
+
+✅ Examples
+```python
+age = 20
+has_id = True
+
+# AND
+if age >= 18 and has_id:
+    print("You are allowed to enter.")
+else:
+    print("Access denied.")
+
+# OR
+day = "Sunday"
+if day == "Saturday" or day == "Sunday":
+    print("It's the weekend!")
+else:
+    print("Weekday.")
+
+# NOT
+is_raining = False
+if not is_raining:
+    print("You can go outside without an umbrella.")
+
+```
 
