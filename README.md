@@ -336,4 +336,35 @@ for i in range(1, 4):
         print(i, j)
 
 ```
+## 14. Lists in Python
+✅ What is a List?
+
+A list is a collection of items (like numbers, strings, or even other lists).
+It is ordered, mutable (can be changed), and allows duplicate values.
+
+📌 Creating a List
+```python
+fruits = ["apple", "banana", "cherry", "mango"]
+numbers = [10, 20, 30, 40, 50]
+mixed = [1, "hello", 3.14, True]
+
+# 📌 Accessing List Items
+print(fruits[0])   # apple
+print(fruits[-1])  # mango (last element)
+
+# 📌 Changing Values
+fruits[1] = "kiwi"
+print(fruits)  # ['apple', 'kiwi', 'cherry', 'mango']
+
+#📌 Useful List Methods
+fruits.append("orange")   # add item at end
+fruits.insert(1, "grapes") # add at index
+fruits.remove("cherry")   # remove by value
+popped = fruits.pop()     # remove last item
+fruits.sort()             # sort alphabetically
+fruits.reverse()          # reverse order
+
+
+
+```
 
