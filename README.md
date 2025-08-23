@@ -327,3 +327,13 @@ for i in range(5):
 
 ```
 
+## 14. 20 Nested Loops ➿
+A loop inside another loop:
+Example:
+```python
+for i in range(1, 4):
+    for j in range(1, 4):
+        print(i, j)
+
+```
+
