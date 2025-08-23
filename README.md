@@ -281,3 +281,27 @@ print("-".join(words))      # "hello-world"
 
 ```
 
+## 11. String Indexing ✂️
+
+In Python, strings are sequences, so you can access them using indexes (just like lists).
+Example:
+```python
+word = "Python"
+
+# Positive Indexing
+print(word[0])   # 'P'
+print(word[1])   # 'y'
+print(word[5])   # 'n'
+
+# Negative Indexing
+print(word[-1])  # 'n'
+print(word[-2])  # 'o'
+
+# Slicing
+print(word[0:4])   # "Pyth"
+print(word[:3])    # "Pyt"  (from start till index 2)
+print(word[2:])    # "thon" (from index 2 to end)
+print(word[::-1])  # "nohtyP" (reverse string)
+
+```
+
