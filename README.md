@@ -236,3 +236,15 @@ if not is_raining:
 
 ```
 
+## 6. What is a Ternary Operator?
+
+A ternary operator allows you to write an if-else condition in a single line.
+It’s also called a conditional expression.
+Example:
+```python
+age = 18
+result = "Adult" if age >= 18 else "Minor"
+print(result)
+
+```
+
