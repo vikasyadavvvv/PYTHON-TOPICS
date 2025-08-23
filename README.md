@@ -486,3 +486,78 @@ print(info)   # {}
 
 ```
 
+## 18. Functions 📞
+
+A function is a block of reusable code that performs a specific task.
+Example:
+```python
+def greet():
+    print("Hello, World!")
+
+greet()   # Output: Hello, World!
+
+
+# 👉 Function with arguments:
+def add(a, b):
+    return a + b
+
+print(add(5, 3))   # Output: 8
+
+# 👉 Function with return value:
+def square(x):
+    return x * x
+
+result = square(4)
+print(result)   # Output: 16
+
+```
+
+## 19. #33 Default Arguments 👍
+
+You can assign default values to function parameters. If the caller doesn’t provide a value, the default is used.
+Example:
+```python
+def greet(name="User"):
+    print(f"Hello, {name}!")
+
+greet()          # Output: Hello, User!
+greet("Vikas")   # Output: Hello, Vikas!
+
+```
+
+## 20. Keyword Arguments 🗝️
+You can pass arguments by name, instead of relying on position.
+Example:
+```python
+def introduce(name, age):
+    print(f"My name is {name} and I am {age} years old.")
+
+introduce(age=20, name="Vikas")
+# Output: My name is Vikas and I am 20 years old.
+
+```
+
+## 21. *args & kwargs 📦
+
+*args → allows you to pass multiple positional arguments.
+**kwargs → allows you to pass multiple keyword arguments.
+
+Example:
+```python
+def sum_all(*args):
+    return sum(args)
+
+print(sum_all(1, 2, 3, 4))   # Output: 10
+
+def show_details(**kwargs):
+    for key, value in kwargs.items():
+        print(f"{key}: {value}")
+
+show_details(name="Vikas", age=20, city="Mumbai")
+# Output:
+# name: Vikas
+# age: 20
+# city: Mumbai
+
+```
+
