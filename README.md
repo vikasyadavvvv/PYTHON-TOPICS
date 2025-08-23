@@ -305,3 +305,25 @@ print(word[::-1])  # "nohtyP" (reverse string)
 
 ```
 
+## 12. While Loops ♾️
+Runs until the condition becomes False.
+🔹 Be careful with infinite loops (if condition never becomes false).
+Example:
+```python
+count = 1
+while count <= 5:
+    print("Count:", count)
+    count += 1
+
+```
+
+## 13. For Loop in Python
+A for loop is used when you want to repeat an action a specific number of times or loop through items in a sequence (like lists, strings, or ranges).
+
+Example 1: Loop through a range of numbers
+```python
+for i in range(5):
+    print("Number:", i)
+
+```
+
