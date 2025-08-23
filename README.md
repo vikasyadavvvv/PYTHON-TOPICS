@@ -418,3 +418,71 @@ print(a ^ b)   # Symmetric Difference: {1, 2, 5, 6}
 
 ```
 
+## 17. 🔑 What is a Dictionary?
+
+A dictionary in Python is a collection of key-value pairs.
+Similar to a real dictionary (word → meaning).
+It is unordered, mutable, and indexed by keys.
+
+🛠️ Dictionary Features
+
+- Keys must be unique.
+- Keys can be of immutable types (string, number, tuple).
+- Values can be of any type (string, int, list, dict, etc.).
+- Dictionaries are mutable (can change after creation).
+
+📌 Syntax:
+```python
+my_dict = {
+    "name": "Vikas",
+    "age": 20,
+    "skills": ["Python", "JavaScript", "MongoDB"]
+}
+
+
+# Create a dictionary
+student = {"name": "Vikas", "age": 20, "course": "B.Sc IT"}
+
+# Access value by key
+print(student["name"])      # Vikas
+
+# Using get()
+print(student.get("age"))   # 20
+
+# Add a new key-value pair
+student["marks"] = 85
+print(student)  
+
+# Update value
+student["age"] = 21
+print(student)
+
+# Remove a key-value pair
+student.pop("course")
+print(student)
+
+# Remove last inserted item (Python 3.7+ keeps insertion order)
+student.popitem()
+print(student)
+
+# Check if key exists
+print("name" in student)  # True
+
+
+
+info = {"a": 1, "b": 2, "c": 3}
+
+print(info.keys())      # dict_keys(['a', 'b', 'c'])
+print(info.values())    # dict_values([1, 2, 3])
+print(info.items())     # dict_items([('a', 1), ('b', 2), ('c', 3)])
+
+# Copy
+copy_dict = info.copy()
+
+# Clear
+info.clear()
+print(info)   # {}
+
+
+```
+
