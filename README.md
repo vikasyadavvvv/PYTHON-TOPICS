@@ -236,7 +236,7 @@ if not is_raining:
 
 ```
 
-## 6. What is a Ternary Operator?
+## 9. What is a Ternary Operator?
 
 A ternary operator allows you to write an if-else condition in a single line.
 It’s also called a conditional expression.
@@ -245,6 +245,39 @@ Example:
 age = 18
 result = "Adult" if age >= 18 else "Minor"
 print(result)
+
+```
+
+
+## 10. String Methods 〰️
+
+Strings in Python come with many built-in methods that help you manipulate them easily.
+Here are the most useful ones:
+```python
+text = "  hello world  "
+
+# 1. Changing case
+print(text.upper())     # "  HELLO WORLD  "
+print(text.lower())     # "  hello world  "
+print(text.title())     # "  Hello World  "
+
+# 2. Removing extra spaces
+print(text.strip())     # "hello world" (removes spaces from both ends)
+print(text.lstrip())    # "hello world  " (removes from left)
+print(text.rstrip())    # "  hello world" (removes from right)
+
+# 3. Checking contents
+print("hello" in text)      # True
+print(text.startswith("  h"))  # True
+print(text.endswith("ld  "))   # True
+
+# 4. Finding and replacing
+print(text.find("world"))   # 8 (position)
+print(text.replace("world", "Python"))  # "  hello Python  "
+
+# 5. Splitting and joining
+words = text.split()        # ['hello', 'world']
+print("-".join(words))      # "hello-world"
 
 ```
 
