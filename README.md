@@ -561,3 +561,37 @@ show_details(name="Vikas", age=20, city="Mumbai")
 
 ```
 
+## 24. Exception Handling
+
+Exceptions are errors that occur during runtime. Python provides try...except to handle them gracefully.
+
+Example:
+```python
+try:
+    x = 10 / 0
+except ZeroDivisionError:
+    print("You can't divide by zero!")
+
+
+def divide_100_by_number():
+    try:
+        # Ask for a number
+        number = float(input("Enter a number to divide 100 by: "))
+        
+        # Perform division
+        result = 100 / number
+        print(f"100 divided by {number} is: {result}")
+        
+    except ZeroDivisionError:
+        print("Error: Cannot divide by zero!")
+    
+    except ValueError:
+        print("Error: Please enter a valid number!")
+    
+    finally:
+        print("Program finished")
+
+# Run the program
+divide_100_by_number()
+```
+
